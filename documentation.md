@@ -63,7 +63,7 @@ This section will guide you through the initial setup and configuration of our p
 
 ---
 
-<!-- _background-image: url('https://github.com/saachi14/product-documentation-marp/blob/main/background.jpg') -->
+<!-- _background-image: url('https://raw.githubusercontent.com/saachi14/product-documentation-marp/main/background.jpg?raw=true') -->
 <!-- You would replace the placeholder URL with your actual image URL -->
 <!-- For a local image, you'd push it to GitHub and use a relative path like: url('../images/architecture.png') -->
 <!-- _background-opacity: 0.6 -->
