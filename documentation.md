@@ -2,7 +2,7 @@
 marp: true
 title: Product Documentation - Core Features
 author: Technical Writing Team
-theme: default # We'll enhance this with custom CSS
+theme: default
 paginate: true
 footer: "© 2025 [Your Company Name] | 22f3002903@ds.study.iitm.ac.in"
 ---
@@ -63,9 +63,8 @@ This section will guide you through the initial setup and configuration of our p
 
 ---
 
+<!-- **THIS IS THE CORRECTED LINE YOU SHOULD USE** -->
 <!-- _background-image: url('https://raw.githubusercontent.com/saachi14/product-documentation-marp/main/background.jpg?raw=true') -->
-<!-- You would replace the placeholder URL with your actual image URL -->
-<!-- For a local image, you'd push it to GitHub and use a relative path like: url('../images/architecture.png') -->
 <!-- _background-opacity: 0.6 -->
 <!-- _color: #333 -->
 # System Architecture
@@ -92,11 +91,6 @@ Our robust API allows for programmatic interaction with the product.
   "PUT /api/v1/products/{id}": "Update product details"
 }
 ```
----
-
-# Python API Client Example
-
-Here's how you might implement a simple function to fetch user data from our API using Python's `requests` library.
 
 ```python
 import requests
@@ -109,6 +103,49 @@ def get_user_data(user_id):
 print(get_user_data(123))
 ```
 
-This function demonstrates a basic GET request and error handling. Remember to replace `api.yourproduct.com` with the actual domain.
+---
+
+# Algorithmic Complexity
+
+Understanding the efficiency of algorithms is key for performance optimization.
+
+### Big O Notation Example
+
+The time complexity for searching an element in a sorted array using binary search is logarithmic:
+
+$$ O(\log n) $$
+
+Contrast this with a linear search, which has a complexity of:
+
+$$ O(n) $$
+
+Where \( n \) is the number of elements in the array.
 
 ---
+
+# Troubleshooting Common Issues
+
+Here are solutions to frequently encountered problems:
+
+*   **Connectivity Issues:**
+    *   Check network configuration.
+    *   Verify firewall settings.
+    *   Ensure API keys are valid.
+*   **Data Synchronization:**
+    *   Confirm data sources are accessible.
+    *   Review sync logs for errors.
+*   **Performance Degradation:**
+    *   Monitor resource usage.
+    *   Optimize database queries.
+
+---
+
+# Contact & Support
+
+For further assistance or feature requests, please reach out:
+
+*   **Support Portal:** [support.yourcompany.com](https://support.yourcompany.com)
+*   **Email:** `support@yourcompany.com`
+*   **Technical Writer:** 22f3002903@ds.study.iitm.ac.in
+
+We are committed to providing you with the best experience!
