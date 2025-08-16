@@ -63,7 +63,7 @@ This section will guide you through the initial setup and configuration of our p
 
 ---
 
-<!-- _background-image: url('https://via.placeholder.com/1200x800/87CEEB/FFFFFF?text=Product+Architecture+Diagram') -->
+<!-- _background-image: url('background.jpg') -->
 <!-- You would replace the placeholder URL with your actual image URL -->
 <!-- For a local image, you'd push it to GitHub and use a relative path like: url('../images/architecture.png') -->
 <!-- _background-opacity: 0.6 -->
